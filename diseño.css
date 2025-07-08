@@ -1,0 +1,183 @@
+ /* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Principal */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
+  padding-left: 200px; 
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  background: #ffffff;
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  color: #1F1F1F;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header h2 {
+  color: #4A90E2;
+  font-size: 1.5em;
+  margin: 5px 0;
+}
+
+/* Navegación lateral */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 1.5em 1em;
+}
+
+nav h3 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 0.8em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5em;
+  display: block;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+nav a:hover {
+  background: #eee;
+}
+
+/* Secciones */
+section {
+  background: #fff;
+  margin: 1em;
+  padding: 1.5em;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #1F1F1F;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+section p {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  font-size: 0.95em;
+}
+
+th, td {
+  padding: 0.75em;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+/* Imágenes */
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Estilos adicionales con la paleta minimalista */
+
+body {
+  background-color: #4A90E2;
+  color: #333333;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  z-index: 1000;
+}
+
+nav h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 5px 10px;
+}
+
+nav ul li a {
+  color: #4A90E2;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #1D72B8;
+}
+
+/* Footer */
+footer {
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+
