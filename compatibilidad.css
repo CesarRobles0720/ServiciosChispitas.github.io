@@ -1,0 +1,34 @@
+#Reset_Basico
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+#Adaptables_y_Compatibilidad
+
+ /* Estilos generales para pantallas grandes (PC) */
+ body {
+  font-size: 18px;
+  padding: 20px;
+ }
+
+ /* Para tablets */
+ @media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 15px;
+  }
+ }
+
+ /* Para celulares */
+ @media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+ }
+
+
+
